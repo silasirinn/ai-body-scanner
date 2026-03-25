@@ -1,0 +1,66 @@
+Analyzing flutter_app...                                        
+
+warning • The declaration '_navigateTo' isn't referenced • lib/main.dart:45:8 • unused_element
+   info • Constructors for public widgets should have a named 'key' parameter • lib/main.dart:119:7 • use_key_in_widget_constructors
+   info • Constructors for public widgets should have a named 'key' parameter • lib/main.dart:128:7 • use_key_in_widget_constructors
+warning • Unused import: 'package:animate_do/animate_do.dart' • lib/screens/analyzing/analyzing_screen.dart:2:8 • unused_import
+warning • Unused import: '../../config/app_colors.dart' • lib/screens/analyzing/analyzing_screen.dart:4:8 • unused_import
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/analyzing/analyzing_screen.dart:117:45 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/analyzing/analyzing_screen.dart:130:49 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/analyzing/analyzing_screen.dart:143:43 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/analyzing/analyzing_screen.dart:145:62 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/analyzing/analyzing_screen.dart:195:53 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/dashboard/dashboard_screen.dart:64:42 • deprecated_member_use
+  error • Invalid constant value • lib/screens/dashboard/dashboard_screen.dart:103:74 • invalid_constant
+  error • The getter 'gray600' isn't defined for the type 'AppColors' • lib/screens/dashboard/dashboard_screen.dart:103:84 • undefined_getter
+  error • The getter 'purple600Tailwind' isn't defined for the type 'AppColors' • lib/screens/dashboard/dashboard_screen.dart:135:73 • undefined_getter
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/dashboard/dashboard_screen.dart:168:46 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/dashboard/dashboard_screen.dart:197:53 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/dashboard/dashboard_screen.dart:244:41 • deprecated_member_use
+  error • The getter 'gray300' isn't defined for the type 'AppColors' • lib/screens/dashboard/dashboard_screen.dart:272:45 • undefined_getter
+  error • The getter 'red50' isn't defined for the type 'AppColors' • lib/screens/instructions/instructions_screen.dart:151:96 • undefined_getter
+  error • The getter 'red100' isn't defined for the type 'AppColors' • lib/screens/instructions/instructions_screen.dart:151:179 • undefined_getter
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/instructions/instructions_screen.dart:169:56 • deprecated_member_use
+  error • The getter 'red50' isn't defined for the type 'AppColors' • lib/screens/instructions/instructions_screen.dart:228:94 • undefined_getter
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/instructions/instructions_screen.dart:240:57 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/instructions/instructions_screen.dart:240:147 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/login/login_screen.dart:56:49 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/profile/steps/step3.dart:80:65 • deprecated_member_use
+  error • The getter 'gray400' isn't defined for the type 'AppColors' • lib/screens/profile/steps/step3.dart:87:100 • undefined_getter
+  error • The getter 'weight' isn't defined for the type 'LucideIcons' • lib/screens/profile/steps/step4.dart:45:132 • undefined_getter
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/profile/steps/step4.dart:103:47 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/profile/steps/step4.dart:104:50 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/profile/steps/step4.dart:116:116 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/profile/steps/step5.dart:77:69 • deprecated_member_use
+warning • Unused import: '../../widgets/primary_button.dart' • lib/screens/program/program_screen.dart:6:8 • unused_import
+  error • Invalid constant value • lib/screens/program/program_screen.dart:73:108 • invalid_constant
+  error • The values in a const list literal must be constants • lib/screens/program/program_screen.dart:73:108 • non_constant_list_element
+  error • The getter 'purple600Tailwind' isn't defined for the type 'AppColors' • lib/screens/program/program_screen.dart:73:118 • undefined_getter
+   info • Unnecessary use of 'toList' in a spread • lib/screens/program/program_screen.dart:167:52 • unnecessary_to_list_in_spreads
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/program/program_screen.dart:226:102 • deprecated_member_use
+  error • The getter 'blue50' isn't defined for the type 'AppColors' • lib/screens/results/results_screen.dart:40:89 • undefined_getter
+  error • The getter 'orange50' isn't defined for the type 'AppColors' • lib/screens/results/results_screen.dart:42:101 • undefined_getter
+  error • The getter 'red50' isn't defined for the type 'AppColors' • lib/screens/results/results_screen.dart:43:90 • undefined_getter
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/results/results_screen.dart:221:78 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/results/results_screen.dart:222:66 • deprecated_member_use
+  error • Invalid constant value • lib/screens/results/results_screen.dart:265:93 • invalid_constant
+  error • The values in a const list literal must be constants • lib/screens/results/results_screen.dart:265:93 • non_constant_list_element
+  error • The getter 'red50' isn't defined for the type 'AppColors' • lib/screens/results/results_screen.dart:265:103 • undefined_getter
+  error • The values in a const list literal must be constants • lib/screens/results/results_screen.dart:265:110 • non_constant_list_element
+  error • The getter 'orange50' isn't defined for the type 'AppColors' • lib/screens/results/results_screen.dart:265:120 • undefined_getter
+  error • The getter 'red200' isn't defined for the type 'AppColors' • lib/screens/results/results_screen.dart:267:89 • undefined_getter
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/results/results_screen.dart:294:56 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/results/results_screen.dart:336:45 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/results/results_screen.dart:349:74 • deprecated_member_use
+  error • Invalid constant value • lib/screens/settings/settings_screen.dart:52:95 • invalid_constant
+  error • The getter 'gray600' isn't defined for the type 'AppColors' • lib/screens/settings/settings_screen.dart:52:105 • undefined_getter
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/settings/settings_screen.dart:223:51 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/circle_icon_button.dart:81:52 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/circle_icon_button.dart:86:45 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/circle_icon_button.dart:93:45 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/custom_text_field.dart:41:37 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/primary_button.dart:76:53 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/primary_button.dart:81:45 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/primary_button.dart:86:45 • deprecated_member_use
+warning • Unused import: 'package:flutter_svg/flutter_svg.dart' • lib/widgets/social_login_button.dart:2:8 • unused_import
+
