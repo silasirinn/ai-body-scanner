@@ -1,4 +1,7 @@
 # AI Body Scanner 💪🤖
+## 👨‍💻 Developers
+- Sultan Uyar
+- Sıla Şirin
 
 A full-stack AI-powered mobile application that analyzes full-body photos to estimate body fat percentage, lean mass, and calculate health risk levels. It dynamically generates personalized diet and workout plans based on the user's bodily geometry.
 
