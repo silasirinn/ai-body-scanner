@@ -51,5 +51,10 @@
 	<string>Uygulama vücut analizi için galeriden fotoğraf seçmenize olanak tanır.</string>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>Uygulama video kaydı sırasında mikrofonu kullanır.</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
 </dict>
 </plist>

@@ -5,7 +5,7 @@ import '../ai/models/ai_output.dart';
 
 class ApiService {
   // Use 10.0.2.2 for Android Emulator, or your local network IP for real devices.
-  static const String baseUrl = 'http://192.168.1.39:3000';
+  static const String baseUrl = 'https://thick-dryers-behave.loca.lt';
 
   Future<AiOutput> analyzePhoto(XFile image, Map<String, dynamic> userData) async {
     final uri = Uri.parse('$baseUrl/analysis');

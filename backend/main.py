@@ -114,8 +114,8 @@ async def analyze_photo(
         "macros": result["macros"],
         "dietPlan": result["dietPlan"],
         "workoutPlan": result["workoutPlan"],
-        "confidenceScore": result["confidenceScore"],
-        "debug": result["debug"]
+        "confidenceScore": result.get("confidenceScore", 0.0),
+        "debug": result.get("debug", {})
     }
     
     data = load_data()

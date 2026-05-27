@@ -57,6 +57,13 @@ class _ProfileStep2State extends State<ProfileStep2> {
                   child: CustomTextField(
                     placeholder: "Yaşınız",
                     keyboardType: TextInputType.number,
+                    textInputAction: TextInputAction.done,
+                    onSubmitted: (v) {
+                      if (age.isNotEmpty && int.tryParse(age) != null) {
+                        FocusScope.of(context).unfocus();
+                        widget.onNext?.call(int.parse(age));
+                      }
+                    },
                     onChanged: (v) => setState(() => age = v),
                   ),
                 ),
@@ -75,7 +82,10 @@ class _ProfileStep2State extends State<ProfileStep2> {
                   icon:
                       const Icon(LucideIcons.chevronRight, color: Colors.white),
                   onPressed: age.isNotEmpty && int.tryParse(age) != null
-                      ? () => widget.onNext?.call(int.parse(age))
+                      ? () {
+                          FocusScope.of(context).unfocus();
+                          widget.onNext?.call(int.parse(age));
+                        }
                       : null,
                 ),
               ),
